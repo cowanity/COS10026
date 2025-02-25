@@ -1,0 +1,166 @@
+*{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin: 0;
+    }
+    nav {background-color: grey;
+        color: white;
+        display: flex;
+        height:100px;
+        position: relative;
+        overflow: auto hidden;
+        }
+
+    #logo {width: 100%;
+        max-width: 200px;
+        min-width: 25%;
+        height: auto;
+        z-index: 2;}
+    
+    /* Cái form search bar */
+    
+    form {
+        float: right;
+        text-align: center;
+        background-color: grey;
+        border-radius: 1px;
+        border: 5px;
+        border-color: dimgray;
+        padding: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 60px;
+        display: flex;
+        width: 200px;
+        box-shadow: 0 10px 20px black, 0 0 0 10px darkgrey;
+        transform: scale(0.6);
+    }
+
+    .search-icon {
+    position: absolute;
+    top: 7px;
+    left: 220px;
+    width: 30px;
+    }
+ 
+    .search:hover, .search:focus {
+    border: 1.5px solid #009688;
+    background-color: white;
+    }
+    
+    input[type="search"] {
+    width: 100%;
+    line-height: 1;
+    font-size: 25px;
+    }
+
+    input[type="search"]::placeholder {
+    color: black;
+    }   
+
+
+
+    
+    #as1 {float: left;
+        background-color: rgba(255,241,18,255);
+        width: 13.3%;
+        display: flex;
+        padding-bottom: 37.2%;
+    }
+    
+    #as2 {float: right;
+        background-color:rgb(52, 50, 50);
+        color: azure;
+        width: 13.3%;
+        padding-top: 38.5%;
+        display: flex;
+        margin-top: -400px;
+    }
+    
+    #logo {max-width: 200px;
+        max-height: auto;
+    }
+    
+    a {font-size: 25px;
+    color: aliceblue;
+    display: block;
+    margin: auto;
+
+    }
+    
+    a:hover {background-color: rgb(38, 35, 35);
+        font-weight: bold;
+    
+    
+    
+    }
+    
+    nav a{
+        float: left;
+        padding: 10px;
+        width: 100%;
+        text-decoration: none;
+        margin-right: -12px;
+        margin-left: 0px;
+        margin-bottom: -5px;
+        text-align: center;
+    }
+    nav a:link{
+        text-decoration: none;
+    }
+    
+
+
+
+
+    .video{
+        margin: auto;
+        text-align: center;
+        z-index:-1;
+        top:0;
+        left:0;
+        width: 100%;
+        max-height: auto;
+        object-fit: fill;
+        height: 400px;
+        display: flex;
+        }       
+    
+
+    #search{
+        display: inline-block;
+        margin: 0 auto;
+        float: right;
+
+    }
+    
+    @media screen and (max-width: 600px) {
+  .nav a, .nav {
+    float: none;
+    display: block;
+  }}
+  
+  #form{Cursor:text !important; Text-Decoration: None !important;
+  } 
+
+#cont {
+        width: 73.4%;
+        position: relative;
+        overflow: auto hidden;
+        display: flex;
+}
+
+table {
+        margin: auto;
+        text-align: center;
+        z-index:-1;
+        top:0;
+        left:0;
+        width: 100%;
+        max-height: auto;
+        object-fit: fill;
+        height: 400px;
+        display: flex;
+}
+
+
+
+    

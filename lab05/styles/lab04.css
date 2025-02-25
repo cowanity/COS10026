@@ -1,0 +1,45 @@
+/*
+filename: Phan Vũ
+author: Phan Vũ
+created: Fri 17 Feb 2023
+last modified: Fri 17 Feb 2023
+description: HTML 5 Basic Content Elements with some Simple CSS
+*/
+
+
+/* heading style */
+h1, h2, h3 {font-style: arial, sans-serif;}
+h2 {color: Darkcyan; font-weight: bold;}
+#firsth3 {color: red;}
+#sencondh3 {color: black;}
+#images {text-align: center;}
+h1 {
+	color: purple;
+	font-size: 2em;
+	font-weight:bold;
+	}
+
+
+
+
+* {font-family:	calabri, sans-serif;}
+
+aside, footer {font-style: italic;}
+
+.special {color: darkorange; font-weight: bold;}
+
+table, th, td {border: 2px solid black;}
+
+hr {border: 2px solid black;}
+
+nav a {	text-decoration: none;
+		padding:0.2em 0.6em;
+		border: 4px solid #ccc;
+		color: black;
+	}
+p a { color: black}
+
+ul { list-style-type: Square;}
+
+aside:hover {display: none;}
+nav a:hover {background-color: lightblue; border-color: darkblue;}

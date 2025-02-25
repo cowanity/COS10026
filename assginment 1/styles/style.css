@@ -1,0 +1,302 @@
+html {height: 100%;
+  box-sizing: border-box;
+      }
+
+*{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 0;
+  }
+
+body {position: relative;
+  background-color: grey;
+  min-height: 100%;
+  padding-bottom: 3.5em;
+  background-image: url(styles/images/backgroundindex.webp);
+      }
+
+/*For the navigation bar of all pages*/
+nav {display: flex;
+  flex-direction: row;
+  background-color: rgba(255,241,18,255);
+  width: 100%;
+  z-index: 2;
+  justify-content: center;
+  position: absolute;
+  justify-content: space-evenly;
+      }
+
+
+nav a {font-size: 25px;
+color: black;
+display: block;
+  }
+
+nav a:hover {background-color: rgb(241, 234, 92);
+  font-weight: bold;
+          }
+
+
+nav a:link{text-decoration: none;
+      padding-top: 0.4em;
+          }
+
+#logo {position: relative;
+  right: 7em;
+      }
+
+img {max-width: 50px;
+  min-width: 25%;
+  height: auto;
+  z-index: 2
+      }
+    
+
+    img { max-width: 50px;
+        min-width: 25%;
+        height: auto;
+        z-index: 2}
+
+
+ /*For the introductory video of the index page*/
+.video {width: 50em; 
+  height: 29em;
+  display: block;
+  margin: auto;
+  padding-top: 7%;
+  justify-content: center;
+      }
+
+/*For the main content of the index page*/
+main {width: 100%;
+  justify-content: center;
+  height: 100%;
+  padding-top: 0.5em;
+  left: 4em;
+  right: 4em;
+  text-align: center;
+      }
+      
+/*For the main text content of the index page*/
+main p {padding-left: 3em;
+  padding-right: 3em;
+      }
+
+/*For the footer layout of all pages*/
+footer {position: fixed;
+  clear: both;
+  bottom: 0;
+  width: 100%;
+  height: 8%;
+  background-color: rgb(38, 35, 35);
+  color: azure;
+  z-index: 2;
+  display: block;
+      }
+
+/*For the text of the footer*/
+footer p {vertical-align: middle;
+      text-align: center;
+      line-height: 1.75em;
+          }
+
+h1 {text-align: center;}
+
+h3 {text-align: center;}
+
+
+main {   
+    width: 100%;
+    padding-top: 7%;
+    justify-content: center;
+    background-color: 	rgb(212,212,212);;
+    height: 100%;
+  }
+  
+  /*Nhan*/
+            
+      /*This is for the introductory video for our website */
+      .video {width: 50em; 
+          height: 29em;
+          display: block;
+          margin: auto;
+          }
+
+body {background-color: 	rgb(212,212,212);}
+article {justify-content: center}
+
+form {width: 80%;
+    position: relative;
+    border-style: solid;
+    left: 10%;}
+
+fieldset#mfield {margin: 50px;}
+
+fieldset {border-style: solid;
+    border-color: black}
+
+div#buttons {position: relative;           
+            left: 100px;}
+
+
+            /* Enhancement */
+
+
+.header h1 {
+                font-size: 50px;
+              }
+
+
+
+.box {
+  float: left;
+  width: 100%;
+  height: 75px;
+  margin-top: 6px;
+}
+
+
+
+              
+
+
+              
+
+.leftcolumn {   
+                float: left;
+                width: 75%;
+              }
+
+              
+              
+
+              
+
+              .card {
+                background-color: white;
+                padding: 20px;
+                margin-top: 20px;
+                text-align: left;
+              }
+              
+              /* Clear floats after the columns */
+              .row:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+              
+              /* Footer */
+              .footer {
+                padding: 20px;
+                text-align: center;
+                background: #ddd;
+                margin-top: 20px;
+              }
+              
+              /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+               
+                .leftcolumn, .rightcolumn {   
+                  width: 100%;
+                  padding: 0;
+                }
+              
+  
+        /* About us */
+        
+
+        div#ab {margin-left: auto ;
+                display: block;
+                }
+
+
+        div#as1 {
+                width:25%;
+                display: inline-block;
+                color: white;
+                background-color: grey;
+                position: fixed;
+                right:0;
+                top:10%;
+                }
+                
+
+
+        main#aboutus {width: 75%;
+                      }
+
+        #tab {border-style: solid;
+              }
+      
+
+      img.teacher {height:auto;
+          max-width: 200px;
+          max-height: 250px;}
+
+      .sec {
+            width:80%}
+
+  
+
+
+
+      #classroom {margin-right:auto;
+                  
+                  width:100%}
+
+
+      #lecinfo {margin-left:auto;
+        border-style:solid;
+        border-color: black;
+      }
+
+      .cr {max-width: 200px;
+        max-height: 250px;}
+      a.index {font-size: 16px;
+                color: white;}
+/* ---------Le Phan's About.html css------- */
+    /* centering a div...*/
+    .info {
+        margin: 2em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+        /*definition list css */
+    .defyList{
+        flex-grow: 0;
+        flex-basis: 15em;
+        margin: 3em;
+    }
+    .defyList dt {
+        float: left;
+    }
+    .defyList dt::after {
+        content: ":";
+    }
+    .defyList dd {
+        margin: 0 0 0 6em;
+    }
+        /*figure img*/
+    .selfie {
+        margin: 10px;
+        float: right;
+        padding: 20px;
+        border: double;
+        max-width: 10em;
+        max-height: 10em;
+    }
+    .selfie img {
+        margin: 0;
+        max-height: 100%;
+        max-width: 100%;
+        object-fit:contain ;
+    }
+        /* TimeTable */
+    .timetable, .timetable th, .timetable td {
+        text-align: center;
+        border: 1px solid;
+        border-collapse: collapse;
+    }
+    .timetable {
+        width: 100%;
+    }

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> </title>
+  <meta charset="utf-8" />
+  <meta name="description" content="COS10026" />
+  <meta name="keywords"    content="Assiginment 1, COS10026" />
+  <meta name="author"      content="Group8 COS10026" />
+</head>
+<link href="styles/style.css" rel="stylesheet" type="text/css" />
+<body>
+	
+		<header>
+            <nav>
+                
+                            
+                            <div id="logo"><img src="styles/images/logo.jpg" alt="logo" /></div>                
+                            <a id="home" href="index.html">Home</a>
+                            <a id="product" href="product.html">About us</a>
+                            <a id="enrol" href="enquire.html">Enrol</a>
+                            <a id="ab" href="about.html">Contact us</a>
+                            <a id="ab" href="enhancement.html">Enhancement</a>                     
+            </nav>	
+           
+        </header>
+        
+        
+        
+        
+    <main>
+      <h1>Enrol in our class</h1>
+      <form action="https://mercury.swin.edu.au/it000000/formtest.php" id="form" method="post">
+        <fieldset id="mfield">
+         <legend>Please fill your information</legend> 
+        
+         <label for="fname">First Name</label>
+        <input type="text" name="fname" required="required" pattern="[A-Z][a-z]{25}">
+        <br>
+        <label for="faminame">Family Name</label>
+        <input type="text" name="faminame" required="required" pattern="[A-Z][a-z]{25}">
+        <br>
+        <label for="email">Email</label>
+        <input type="text" name="email" required="required">
+        
+        <br>
+      
+      
+      <fieldset>
+        <legend>Address</legend>
+        <label for="straddress">Street address</label>
+        <input type="text" name="straddress" required="required" pattern="[A-Z][a-z]{40}">
+        <br>  
+
+        <label for="sutown">Suburb/Town</label>
+        <input type="text" name="sutown" required="required" pattern="[A-Z][a-z]{20}">
+
+        <br> 
+
+        <label for="state">State</label>
+        <input type="text" name="state" required="required">
+        <br>
+        
+        <label for="zcode">Zip Code</label>
+        <input type="text" name="zcode" required="required">
+        <br> 
+      </fieldset>
+
+      <label for="phnumber">Phone number</label>
+      <input type="number" name="phnumber" required="required" placeholder="012 345 6789" pattern="[0-9]{10}">
+      <br>
+      <p>Refer contact:</p>
+      <label for="contact">Email</label>
+      <input type="radio" name="email" id="email">
+
+      <label for="contact">Post</label>
+      <input type="radio" name="email" id="post">
+
+      <label for="contact">Phone</label>
+      <input type="radio" name="phnumber" id="phnumber">
+
+      <br>
+      <label for="dayclass">Which class do you want to participate in?</label>
+      <select name="dayclass" id="dayclass" required="required">
+      <option value="seclass">Please select a class</option>
+      <option value="246">Monday, Wednesday, and Friday</option>
+      <option value="357">Tuesday, Thursday, and Saturday</option>
+      </select>
+      <br>
+      <br>
+      <br>
+      <p>Choose the subject(s) you want to focus:</p>
+
+      <label for="subject">Decoration art</label>
+      <input type="checkbox" name="subject[]" id="decora">
+
+      <label for="subject">Pencil drawing</label>
+      <input type="checkbox" name="subject[]" id="pendraw">
+      <br>
+      <br>
+      <br>
+      <label for="comment">Anything do want to share with us?</label>
+      <br>
+      <textarea name="comment" id="comment" class="box" placeholder="Write something"></textarea>
+      
+
+    </fieldset>
+    <div id="buttons">
+      <input type="submit" name="Submit">
+      <input type="reset" name="Reset form">
+    </div>
+   
+  </form>
+      <br>
+      <br>
+      <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+    </main>
+
+    <br>
+      <br>
+      <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+    
+        
+       
+            <footer>
+                <p id ="address">47 Tran Thi Lien, Phuoc Kien ward, Nha Be district, Ho Chi Minh City</p> 
+                <p>Phone number: 0988510571</p>
+            </footer>
+       
+            
+         
+        
+</body>
+</html>
